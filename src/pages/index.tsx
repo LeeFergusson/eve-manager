@@ -8,7 +8,10 @@ const Home: NextPage = () => {
         <title>Home Base</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main></main>
+      <main className="flex flex-col p-2">
+        <h2 className="text-xl">Home</h2>
+        <p>Welcome to the application!</p>
+      </main>
     </>
   );
 };
