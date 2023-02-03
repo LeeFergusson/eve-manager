@@ -15,12 +15,12 @@ const MyApp: AppType<{ session: Session | null }> = ({
   return (
     <SessionProvider session={session}>
       <div className="flex min-h-screen flex-col font-main">
-        <div className="border-b-2">
+        <div className="border-b-2 border-gray-400">
           <div className="mx-auto max-w-screen-2xl">
             <Header />
           </div>
         </div>
-        <div className="flex-grow border-b-2 bg-gray-100">
+        <div className="flex-grow border-b-2 border-gray-400 bg-gray-200">
           <div className="mx-auto max-w-screen-2xl">
             <Component {...pageProps} />
           </div>
