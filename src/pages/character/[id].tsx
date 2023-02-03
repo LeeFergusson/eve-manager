@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import { useRouter } from "next/router";
-import CharacterDetails from "../../components/ui/CharacterDetails";
+import CharacterDetails from "../../components/CharacterDetails";
 
 const CharacterPage: NextPage = () => {
   const router = useRouter();
